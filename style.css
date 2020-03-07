@@ -26,13 +26,15 @@ background-color: var(--primary_black);
 #navigation ul li a{
     color:var(--primary_white) ;
 }
-
+.user_card a:hover{
+    background-color: var(--primary_black);
+}
 .user_card {
 background-color: var(--primary_black);
 color: var(--primary_white);
 }
 
 .user_card a{
-    color: var(--primary_white);
     border: 3px solid var(--primary_red);
+    color: var(--primary_white);
 }
