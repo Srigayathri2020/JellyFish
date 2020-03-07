@@ -1,0 +1,38 @@
+html{
+    --primary_black: #333333;
+    --primary_red: #FF0000;
+    --primary_white:#FFFFFF;
+}
+#navigation{
+    background-color: var(--primary_black);
+}
+/* background color will be changed as red*/
+/*#navigation ul li{ 
+    background-color: var(--primary_red); 
+    margin: 10px;
+}*/ 
+/* to create border */
+#navigation ul li{ 
+    border:3px solid var(--primary_red);
+    margin: 10px;
+}
+/*highlighting color will be remaining the same as backgrond color by using of 'hover' tag*/
+#navigation ul li a:hover{
+
+background-color: var(--primary_black);
+
+}
+
+#navigation ul li a{
+    color:var(--primary_white) ;
+}
+
+.user_card {
+background-color: var(--primary_black);
+color: var(--primary_white);
+}
+
+.user_card a{
+    color: var(--primary_white);
+    border: 3px solid var(--primary_red);
+}
